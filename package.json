@@ -1,0 +1,19 @@
+{
+  "name": "15-ts-intro",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "ts": "tsc --watch",
+    "dev": "nodemon ./dist",
+    "shop": "nodemon ./dist/Shop.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Andrius",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
